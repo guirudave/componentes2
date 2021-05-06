@@ -1,8 +1,8 @@
 import 'package:componentes2/src/routes/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:componentes2/src/pages/alert_page.dart';
-import 'package:componentes2/src/pages/avatar_page.dart';
-import 'package:componentes2/src/pages/home_page.dart';
+//import 'package:componentes2/src/pages/avatar_page.dart';
+//import 'package:componentes2/src/pages/home_page.dart';
 
 ///Librerias Componentes Autor
 //import 'package:componentes2/src/pages/home_temp.dart';
