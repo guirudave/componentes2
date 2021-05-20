@@ -1,5 +1,6 @@
-import 'package:componentes2/src/routes/routes.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:componentes2/src/routes/routes.dart';
 import 'package:componentes2/src/pages/alert_page.dart';
 //import 'package:componentes2/src/pages/avatar_page.dart';
 //import 'package:componentes2/src/pages/home_page.dart';
@@ -16,6 +17,18 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       debugShowCheckedModeBanner: false,
+      localizationsDelegates: [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+      ],
+      supportedLocales: [
+        const Locale('en', 'US'), // English
+        const Locale('es', 'ES'),
+      ],
+      theme: ThemeData(
+    primarySwatch: Colors.red,
+  ),
+
       //home:  HomePagesTemp()   
      // home:HomePagesTemp1()
       //home:HomePage()
